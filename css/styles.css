@@ -1,0 +1,175 @@
+#title{
+  background-color: pink;
+  padding-bottom: 3%;
+}
+
+h1 {
+  font-size: 3.3rem;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+/*
+h2 {
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+} */
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.buttons-and-heading{
+  padding-left: 10%
+}
+
+body{
+  font-family: Montserrat;
+
+}
+
+/* nav bar */
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1.5rem
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+/* download button */
+
+.download-button{
+  padding: 3% 5%;
+  margin: 3% 3% 3% 0;
+}
+
+/* phone image */
+
+.phone-image{
+  transform: rotate(25deg);
+  width: 40%;
+}
+
+@media (max-width: 1028px){
+  .phone-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* features */
+
+.row{
+  text-align: center;
+}
+
+.col-md-4 i{
+  color: red;
+}
+
+.col-md-4 i:hover{
+  color: blue;
+}
+
+#features h3{
+  font-weight: bold;
+
+}
+
+.col-md-4{
+  padding: 5% 2%;
+}
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: pink;
+  padding: 5% 2%;
+}
+
+.dog-image{
+  width: 7%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.lady-image{
+  width: 7%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.testimonial-text{
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+/* press */
+#press{
+  background-color: pink;
+  text-align: center;
+  padding: 10px;
+}
+
+.press-images{
+  margin: 30px;
+  width: 15%;
+}
+
+/* pricing section */
+#pricing{
+  padding: 3%;
+  text-align: center;
+}
+
+.pricing-columns{
+  padding: 3%;
+}
+
+.pricing-heading{
+  color: black;
+}
+
+.pricing-offer{
+  color: black;
+}
+
+/* call to action section */
+
+#cta{
+  font-family: Montserrat;
+  background-color: pink;
+  text-align: center;
+  padding: 5%;
+}
+
+.cta-text{
+  color:white;
+  font-weight: bold;
+  padding: 2%;
+}
+
+.btn-footer{
+  margin: 1%;
+  padding:5px 10px 5px 10px;
+}
+
+/* footer section */
+
+#footer{
+  text-align: center;
+  padding: 3%;
+}
+
+.copyright-text{
+  margin: 1%;
+}
